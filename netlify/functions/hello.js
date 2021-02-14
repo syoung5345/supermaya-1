@@ -1,4 +1,4 @@
-// /functions/hello-world.js
+// /functions/hello.js
 exports.handler = async function (event, context) {
   const name = event.queryStringParameters.name || "World";
 
