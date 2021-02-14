@@ -10,14 +10,14 @@ module.exports = {
   socialImage: "/img/social.jpg",
   theme: {
     primary: {
-      background: "white",
-      text: "black",
-      highlight: "#666",
+      background: "#e8e3e2",
+      text: "#443235",
+      highlight: "#916a70",
     },
     secondary: {
-      background: "black",
-      text: "white",
-      highlight: "#666",
+      background: "#916a70",
+      text: "whitesmoke",
+      highlight: "whitesmoke",
     },
   },
 

@@ -7,7 +7,7 @@
     "node": ">=11.0.0"
   },
   "scripts": {
-    "start": "cross-env ELEVENTY_ENV=development npx eleventy clean && eleventy --serve",
+    "start": "netlify dev",
     "build": "npx eleventy"
   },
   "keywords": [],
@@ -30,6 +30,7 @@
     "lozad": "^1.14.0",
     "memfs": "^3.1.2",
     "node-sass": "^4.14.0",
+    "querystring": "^0.2.0",
     "slugify": "^1.4.0",
     "snarkdown": "^1.2.2",
     "svg-inline-loader": "^0.8.2",
