@@ -11,6 +11,9 @@ const htmlMinTransform = require("./site/transforms/html-min-transform.js");
 const parseTransform = require("./site/transforms/parse-transform.js");
 const criticalCSSTransform = require("./site/transforms/critical-css-transform.js");
 
+// Netlify Identity
+const netlifyIdentity = require('netlify-identity-widget');
+
 // Import data files
 const site = require("./site/_data/site.js");
 
@@ -52,6 +55,7 @@ module.exports = function(config) {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+  config.addPlugin(netlifyIdentity);
 
   // Watch for changes to my source files
   if (config.addWatchTarget) {

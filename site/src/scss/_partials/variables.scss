@@ -1,7 +1,17 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 $BASE_UNIT: 100px;
 
-$FONT_NORMAL: Helvetica Neue, Helvetica, Arial, sans-serif;
-$FONT_HEADINGS: Helvetica Neue, Helvetica, Arial, sans-serif;
+// $FONT_NORMAL: Helvetica Neue, Helvetica, Arial, sans-serif;
+// $FONT_HEADINGS: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+$FONT_HEADINGS: 'Playfair Display', Georgia, serif;
+// $FONT_NORMAL: 'Piazzolla', 'Inter', Georgia, serif;
+$FONT_NORMAL: 'Piazzolla', Georgia, serif;
 $FONT_MONO: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
 $RATIO: 1.4;
@@ -14,6 +24,13 @@ $SCALE-2: 1rem * $RATIO * $RATIO;
 $SCALE-3: 1rem * $RATIO * $RATIO * $RATIO;
 $SCALE-4: 1rem * $RATIO * $RATIO * $RATIO * $RATIO;
 $SCALE-5: 1rem * $RATIO * $RATIO * $RATIO * $RATIO * $RATIO;
+
+$black: #424242;
+$gray-light: #bbbbbb;
+$gray: gray;
+$gray-dark: #5f5f5f;
+$primary: #f7ec59;
+$secondary: #e8e3e2;
 
 $COLOR_LIGHTER: #eaeaea;
 $COLOR_LIGHT: #ccc; // Do not use for text color

@@ -1,3 +1,26 @@
+/**
+ * WRAPPER
+ * Sets a max width, adds a consistent gutter and horizontally
+ * centers the contents
+ */
+ .wrapper {
+  max-width: 37rem;
+  width: clamp(20rem, 90vw, 37rem);
+  margin: 0 auto;
+  padding-inline-start: .9rem;
+  padding-inline-end: .9rem;
+  position: relative;
+}
+
+/**
+ * FLOW
+ * Sets spacing above each child element 
+ */
+.flow > * + * {
+  margin-top: 1em;
+  margin-top: var(--flow-space, 1em);
+}
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   height: auto;

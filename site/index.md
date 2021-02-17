@@ -1,6 +1,6 @@
 ---
-layout: "layouts/identity.njk"
-# layout: "layouts/home.njk"
+# layout: "layouts/identity.njk"
+layout: "layouts/home.njk"
 title: Simple Blog
 postsHeading: Latest posts
 allPostsText: See all posts
